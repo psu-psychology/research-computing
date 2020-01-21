@@ -3,9 +3,9 @@ title: "Research Computing"
 subtitle: "Status report 2020-01-21"
 author: "Rick Gilmore"
 date: "`r Sys.time()`"
-css: css/ioslides.css
 output:
   ioslides_presentation:
+    css: css/ioslides.css
     self_contained: true
     lib_dir: libs
     widescreen: true
@@ -43,9 +43,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 ## Research computing resources
 
-<div class="centered">
 <https://cyberinfrastructure.psu.edu/>
-</div>
 
 ## [Office of Information Security (OIS)](https://security.psu.edu/)
 
@@ -71,11 +69,3 @@ knitr::opts_chunk$set(echo = FALSE)
 - Focus groups
     - What research computing resources would enhance research productivity or quality?
     
----
-
-<div class="centered>
-```{r}
-library(qrcode)
-qrcode_gen("psu-psychology.github.io/research-computing/2020-01-21-status-report.html")
-```
-</div>
