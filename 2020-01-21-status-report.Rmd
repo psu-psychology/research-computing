@@ -1,0 +1,81 @@
+---
+title: "Research Computing"
+subtitle: "Status report 2020-01-21"
+author: "Rick Gilmore"
+date: "`r Sys.time()`"
+css: css/ioslides.css
+output:
+  ioslides_presentation:
+    self_contained: true
+    lib_dir: libs
+    widescreen: true
+    incremental: false
+    transition: default
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+## Agenda
+
+- Research computing leadership 
+- Research computing resources
+- Faculty Governance via RCCI
+
+## VP Information Technology (IT)/Chief Information Officer (CIO)
+
+- Reports to Provost and Senior VP for Administration
+- <https://ovpit.psu.edu/>
+- [Don Welch](https://security.psu.edu/donald-j-welch-phd/)
+    - Former Chief Information Security Officer (CISO)
+    - Interim since July 1
+- National search for permanent VP IT/CIO has begun
+    
+## Associate CIO for Research
+    
+- [Greg Madden](https://www.research.psu.edu/node/2940)
+    - Former Senior Advisor for Research Computing and Cyberinfrastructure
+- Things I've asked about...
+    - Can sensitive research data be stored on OneDrive?
+    - Can we write software to access research data on Box?
+    - Does PSU have an enterprise account for GitHub Education?
+
+## Research computing resources
+
+<div class="centered">
+<https://cyberinfrastructure.psu.edu/>
+</div>
+
+## [Office of Information Security (OIS)](https://security.psu.edu/)
+
+- Headed by Chief Information Security Officer (CISO)
+- Research data classification
+    - <https://security.psu.edu/info-classification-decision-tool/>
+- Questions I've asked
+    - Can video data be stored on Box?
+
+## Faculty governance
+
+- Research Computing and Cyberinfrastructure (RCCI), <https://rcci.psu.edu/>
+    - Executive Committee
+    - Advisory Committee
+        - Emerging Technologies
+        - Service and Process Coordination
+        - High Performance Computing
+        - Communications and Onboarding
+
+## Strategic planning
+
+- Spring 2020
+- Focus groups
+    - What research computing resources would enhance research productivity or quality?
+    
+---
+
+<div class="centered>
+```{r}
+library(qrcode)
+qrcode_gen("psu-psychology.github.io/research-computing/2020-01-21-status-report.html")
+```
+</div>
